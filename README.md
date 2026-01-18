@@ -8,7 +8,7 @@ Bem-vindo ao meu portfólio. Sou um desenvolvedor full-stack de 18 anos, recém-
 
 Tenho uma paixão genuína por entender como as coisas funcionam. Desde cedo, percebi que programação não é apenas escrever código — é resolver problemas, pensar em arquitetura, e criar ferramentas que realmente importam.
 
-Sou formado em **ADS pelo SESI/SENAC** com média de **8.9/10** nas disciplinas técnicas. Nunca trabalhei formalmente, mas construí **14 repositórios públicos** que demonstram minha capacidade de aprender rapidamente, lidar com complexidade e entregar código de qualidade.
+Sou formado em **ADS pela CCM Unidade Polo** (com apoio pedagógico do SESI/SENAC) com média de **8.9/10** nas disciplinas técnicas. Nunca trabalhei formalmente, mas construí **14 repositórios públicos** que demonstram minha capacidade de aprender rapidamente, lidar com complexidade e entregar código de qualidade.
 
 Estou em busca da minha primeira oportunidade profissional como desenvolvedor junior ou estagiário, onde possa crescer tecnicamente, trabalhar com profissionais experientes e contribuir de verdade para produtos que impactam pessoas.
 
