@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Murilo Fonseca - Desenvolvedor Full-Stack Junior com 14 projetos open source">
+    <title>Murilo Fonseca - Dev Full-Stack</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">murilo.dev</div>
+            <ul class="nav-links">
+                <li><a href="#home">home</a></li>
+                <li><a href="#projects">projetos</a></li>
+                <li><a href="#about">sobre</a></li>
+                <li><a href="#contact">contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Desenvolvedor<br><span class="accent-text">Full-Stack</span></h1>
+                    <p class="hero-intro">18 anos. Formado em ADS. 14 projetos no GitHub.</p>
+                    <p class="hero-description">Criei sistemas de cache distribuído em Go, orquestradores de containers em Python e pipelines de ETL. Estou buscando minha primeira oportunidade profissional para crescer e contribuir de verdade.</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">Ver meus projetos</a>
+                        <a href="#contact" class="btn btn-outline">Conversar</a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">14</span>
+                        <span class="stat-label">Repositórios</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">8.9</span>
+                        <span class="stat-label">Média ADS</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">6+</span>
+                        <span class="stat-label">Linguagens</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projetos que Demonstram Capacidade</h2>
+                <p>Esses não são exercícios acadêmicos. São soluções reais que resolvi construir.</p>
+            </div>
+
+            <div class="projects-showcase">
+                <!-- Project 1 -->
+                <article class="project-item featured">
+                    <div class="project-meta">
+                        <span class="project-year">2024</span>
+                        <span class="project-type">Backend</span>
+                    </div>
+                    <h3>GopherCache</h3>
+                    <p>Um sistema de cache distribuído em memória. Implementei um protocolo TCP customizado para comunicação entre servidores, tratamento de concorrência e otimização de performance. Aprendi muito sobre sistemas distribuídos construindo isso.</p>
+                    <div class="project-tech">
+                        <span>Go</span>
+                        <span>TCP</span>
+                        <span>Concorrência</span>
+                    </div>
+                    <a href="https://github.com/MuriloRip/gophercache" target="_blank" class="project-link">Ver código →</a>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-item featured">
+                    <div class="project-meta">
+                        <span class="project-year">2024</span>
+                        <span class="project-type">DevOps</span>
+                    </div>
+                    <h3>CloudScale Monitor</h3>
+                    <p>Orquestrador que monitora containers Docker e ajusta automaticamente a quantidade de instâncias conforme a carga. Integração com APIs Docker, processamento de métricas em tempo real e decisões automáticas. Experiência prática em DevOps.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Docker</span>
+                        <span>Monitoramento</span>
+                    </div>
+                    <a href="https://github.com/MuriloRip/cloudscale-monitor" target="_blank" class="project-link">Ver código →</a>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-item featured">
+                    <div class="project-meta">
+                        <span class="project-year">2024</span>
+                        <span class="project-type">Data</span>
+                    </div>
+                    <h3>DataPipeline Pro</h3>
+                    <p>Framework modular para ETL em larga escala. Processamento eficiente de grandes volumes de dados com Pandas. Aprendi sobre otimização de performance, tratamento de dados sujos e design de pipelines escaláveis.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>ETL</span>
+                    </div>
+                    <a href="https://github.com/MuriloRip/datapipeline-pro" target="_blank" class="project-link">Ver código →</a>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-item">
+                    <div class="project-meta">
+                        <span class="project-year">2024</span>
+                        <span class="project-type">API</span>
+                    </div>
+                    <h3>Symfony Ticket API</h3>
+                    <p>API REST completa com Symfony. Boas práticas de desenvolvimento backend.</p>
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>Symfony</span>
+                        <span>REST</span>
+                    </div>
+                    <a href="https://github.com/MuriloRip/symfony-ticket-api" target="_blank" class="project-link">GitHub →</a>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-item">
+                    <div class="project-meta">
+                        <span class="project-year">2023</span>
+                        <span class="project-type">Full-Stack</span>
+                    </div>
+                    <h3>Library Management</h3>
+                    <p>Sistema completo de gerenciamento de biblioteca. Frontend, backend e database integrados.</p>
+                    <div class="project-tech">
+                        <span>Full-Stack</span>
+                        <span>Database</span>
+                    </div>
+                    <a href="https://github.com/MuriloRip/library-management-system" target="_blank" class="project-link">GitHub →</a>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-item">
+                    <div class="project-meta">
+                        <span class="project-year">2024</span>
+                        <span class="project-type">CLI Tools</span>
+                    </div>
+                    <h3>Ferramentas CLI</h3>
+                    <p>EnvGuard, DocuMind, LogPulse e Git Pulse Analytics. Pequenas ferramentas que resolvem problemas reais de desenvolvimento.</p>
+                    <div class="project-tech">
+                        <span>CLI</span>
+                        <span>Automação</span>
+                    </div>
+                    <a href="https://github.com/MuriloRip" target="_blank" class="project-link">Ver todos →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Quem Sou</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Tenho 18 anos e sou formado em Análise e Desenvolvimento de Sistemas (ADS) pelo SESI/SENAC. Tirei 8.9/10 de média nas disciplinas técnicas.</p>
+                    
+                    <p>Nunca trabalhei formalmente, mas construí 14 repositórios públicos que demonstram que consigo aprender rapidamente, resolver problemas complexos e entregar código de qualidade. Não são projetos de aula - são coisas que decidi construir porque achei interessante.</p>
+                    
+                    <p>Estou buscando minha primeira oportunidade como desenvolvedor junior ou estagiário. Quero trabalhar com pessoas experientes, crescer tecnicamente e contribuir de verdade para produtos reais.</p>
+                </div>
+
+                <div class="about-details">
+                    <div class="detail-block">
+                        <h3>Formação</h3>
+                        <p>ADS - SESI/SENAC<br>2023 → 2025</p>
+                    </div>
+                    <div class="detail-block">
+                        <h3>Localização</h3>
+                        <p>Maringá, PR<br>Aberto para remoto</p>
+                    </div>
+                    <div class="detail-block">
+                        <h3>Objetivo</h3>
+                        <p>Primeiro emprego<br>Como Junior</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Stack Técnico</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h4>Backend</h4>
+                    <div class="skill-list">
+                        <span>Go</span>
+                        <span>Python</span>
+                        <span>PHP</span>
+                        <span>Java</span>
+                        <span>FastAPI</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h4>Frontend</h4>
+                    <div class="skill-list">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Tailwind</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h4>Mobile</h4>
+                    <div class="skill-list">
+                        <span>React Native</span>
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h4>Ferramentas</h4>
+                    <div class="skill-list">
+                        <span>Git</span>
+                        <span>Linux</span>
+                        <span>PostgreSQL</span>
+                        <span>APIs REST</span>
+                        <span>Pandas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Vamos Conversar?</h2>
+                <p>Estou aberto a oportunidades, conversas e novas ideias.</p>
+            </div>
+
+            <div class="contact-grid">
+                <a href="mailto:murilo.fsc.araujo@gmail.com" class="contact-item">
+                    <span class="contact-icon">✉</span>
+                    <h3>Email</h3>
+                    <p>murilo.fsc.araujo@gmail.com</p>
+                </a>
+
+                <a href="https://github.com/MuriloRip" target="_blank" class="contact-item">
+                    <span class="contact-icon">→</span>
+                    <h3>GitHub</h3>
+                    <p>github.com/MuriloRip</p>
+                </a>
+
+                <a href="https://www.linkedin.com/in/murilo-fonseca-276b5023b/" target="_blank" class="contact-item">
+                    <span class="contact-icon">in</span>
+                    <h3>LinkedIn</h3>
+                    <p>Murilo Fonseca</p>
+                </a>
+
+                <a href="tel:+5544998229857" class="contact-item">
+                    <span class="contact-icon">☎</span>
+                    <h3>Telefone</h3>
+                    <p>(44) 9 9822-9857</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Murilo Fonseca © 2025 | Desenvolvedor Full-Stack Junior</p>
+            <p style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.6;">Hospedado no GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
