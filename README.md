@@ -93,8 +93,8 @@ Conjunto de utilitários que resolvem problemas reais de desenvolvimento: **EnvG
 
 Estou aberto a oportunidades, conversas e novas ideias. Se você acha que posso contribuir com seu time ou quer conversar sobre tecnologia, entre em contato:
 
+**WhatsApp:** (44) 9 9822-9857  
 **Email:** murilo.fsc.araujo@gmail.com  
-**Telefone:** (44) 9 9822-9857  
 **GitHub:** [github.com/MuriloRip](https://github.com/MuriloRip)  
 **LinkedIn:** [linkedin.com/in/murilo-fonseca-276b5023b](https://www.linkedin.com/in/murilo-fonseca-276b5023b/)
 
